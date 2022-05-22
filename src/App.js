@@ -8,7 +8,6 @@ import BlogDetail from "./components/BlogDetail";
 import Auth from "./components/Auth";
 import { authActions } from "./store";
 import { useDispatch, useSelector } from "react-redux";
-import zIndex from "@mui/material/styles/zIndex";
 function App() {
   const dispath = useDispatch();
 
